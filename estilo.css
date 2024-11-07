@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Bromph Town';
+    src: url('./fonts/BROMPH_TOWN.ttf') format('truetype'),
+         url('./fonts/BROMPH_TOWN.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    font-family: 'Bromph Town', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    background: #0000;
+    color: #b34141;
+    align-items: center; 
+    justify-content: center;
+}
+.logo-container img {
+    width: 100%; 
+
+    display: block;  }
+
+
+.menu{
+    margin: 20px;
+}
+
+nav{
+    background-color: #d2a679; 
+}
+.btn {
+    background-color: #d2a679; 
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+.announcement {
+    text-align: center;
+    font-size: 45px;
+    margin: 20px 0;
+    color: #ffff;
+}
+.gallery img {
+    width: 30%;
+    margin: 0 10p
+}
+
+body {
+    background: #281A17;
+    font-family: 'Bromph Town', Arial, sans-serif;
+    line-height: 1.6;
+    color: #281A17;
+}
+h3{
+    width: 100%;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    width: 100%;
+    font-size: 35px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0,2;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+header img.logo {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+nav .btn {
+ 
+    margin: 10px;
+    padding: 10px 20px;
+    background: #A14735;
+    color: #281A17;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+            
+            ul, ol {
+                list-style:none;
+            }
+            
+         
+ 
+            .nav li a {
+                background-color:#A14735;
+                color:#281A17;
+                text-decoration:none;
+                padding:10px 12px;
+                display:block;
+            }
+            
+            .nav li a:hover {
+                background-color:red;
+                 color:#ff8f00;
+
+            }
+            
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:140px;
+            }
+            
+            .nav li:hover > ul {
+                display:block;
+            }
+            
+        
+
+.hero {
+    text-align: center;
+    background: #945959;
+    padding: 20px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery img {
+    max-width: 30%;
+    margin: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.info .text {
+    flex: 1;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 45px;
+}
+
+.info .btn-preventa {
+   
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: red;
+    color: #ff8f00;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-family:'Bromph Town', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+.btn-marcas{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin: 15px;
+    padding: 1opx 20px;
+    background:orange;
+    color: #430000;
+    font-family:'Bromph Town', Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.info img {
+    max-width: 30%;
+    margin: 10px;
+}
+
+.history {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.history .btn-history {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #b34141;
+    color: orange;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.history .btn-celebracion{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: orange;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.history .btn-ganadora{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #68232B;
+    color: orange;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.history img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #170000;
+    color: #fff;
+    padding: 20px;
+}
+
+footer div {
+    flex: 1;
+    margin: 10px;
+}
+
+footer img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+footer .small {
+    width: 50px;
+    display: block;
+    margin: 10px 0;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo-container img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .announcement {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centrado {
+        font-size: 24px;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .info .text {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .info img {
+        max-width: 90%;
+    }
+
+    .btn-preventa,
+    .btn-marcas {
+        width: 80%;
+        font-size: 18px;
+        padding: 10px;
+        height: auto;
+    }
+
+    .history {
+        padding: 15px;
+    }
+
+    .history .btn-history,
+    .history .btn-celebracion,
+    .history .btn-ganadora {
+        width: 80%;
+        font-size: 18px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    footer img {
+        width: 30px;
+        margin: 5px;
+    }
+}
